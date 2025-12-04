@@ -1,4 +1,4 @@
-#!/use/bin/env bash
+#!/usr/bin/env bash
 # Script: 5-dont_stop_me_now
 # Purpose: Stop the 4-to_infinity_and_beyond process
 
