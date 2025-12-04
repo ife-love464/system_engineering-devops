@@ -1,6 +1,2 @@
 #!/bin/bash
-echo "=== Environment Variables ==="
-echo
-echo "=== Local Variables ==="
-echo
-echo "=== Shell Functions ==="
+echo "=== Environment & Local Variables ==="; ( set -o posix; set ); echo; echo "=== Functions ==="; declare -f
