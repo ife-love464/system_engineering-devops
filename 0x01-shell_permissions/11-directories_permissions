@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -l | awk '{print substr($1,1,10)}'
+stat -c "%A" * 
