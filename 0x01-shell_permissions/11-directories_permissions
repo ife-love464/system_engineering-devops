@@ -1,2 +1,2 @@
 #!/bin/bash
-stat -c "%A" hello dir0 dir1 dir2
+chmod   a+x */
