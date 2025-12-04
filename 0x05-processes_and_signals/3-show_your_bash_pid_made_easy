@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Script to display PID and process name for all processes containing "bash"
+
+# pgrep with -a prints PID and the full command name
+pgrep -a bash | while read -r pid cmd; do
+    # Extract only the process name from the command (last part after /)
+    process_name=$(basename "$cmd")
+    echo "$pid $process_name"
+done
