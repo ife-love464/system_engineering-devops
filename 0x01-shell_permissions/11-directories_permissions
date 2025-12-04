@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -exec chmod a+x {} \
+ls -l | awk '{k=substr($1,1,10); print k}'
