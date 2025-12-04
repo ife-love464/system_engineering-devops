@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# List all processes and filter those containing "bash"
+# shellcheck disable=SC2009
+ps -f -u "$USER" | grep bash
