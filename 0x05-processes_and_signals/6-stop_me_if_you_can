@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Bring the job to foreground and send SIGINT
-jobs -l | grep '4-to_infinity_and_beyond' | awk '{print $1}' | xargs -I {} fg %{}
+# Script that stops 4-to_infinity_and_beyond process without using kill or killall
+
+pkill -f "4-to_infinity_and_beyond"
